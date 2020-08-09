@@ -20,9 +20,18 @@ if (sexMan === true) {
   sexGender = 'Женский'
 }
 
-if (yourAge > 65) {
+if (sexGender === 'Мужской') {
+  yourAge < 65
   pensionForm = 'Да'
   
+} else {
+  pensionForm = 'Нет'
+}
+
+if (sexGender === 'Женский') {
+  yourAge < 55
+  pensionForm = 'Да'
+
 } else {
   pensionForm = 'Нет'
 }
