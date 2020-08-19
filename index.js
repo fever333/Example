@@ -8,11 +8,7 @@ function getAll() {
   let afterYear = 5;
   let pensionForm = "да";
 
-  if (sexMan) {
-    gender = "Мужской";
-  } else {
-    gender = "Женский";
-  }
+  sexMan ? (gender = "Мужской") : (gender = "Женский");
 
   if (
     (yourAge >= 65 && gender === "Мужской") ||
